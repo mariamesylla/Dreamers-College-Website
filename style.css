@@ -1,0 +1,159 @@
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("img/bg.jpeg");
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+
+
+.grid-container {
+	display: grid;
+	padding: 20px;
+	grid-gap: 30px;
+      }
+.grid-container2 {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 20px;
+	grid-gap: 30px;
+      }
+
+.grid-container3 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	grid-gap: 2px;
+      }
+
+.item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+	background-color:aliceblue;
+	border-radius:40px;
+    padding: 30px;
+    font-size: 15px;
+    text-align: center;
+      }
+
+h1{
+	animation-direction: alternate;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+.item2 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+	border-radius:40px;
+	background-image: url("img/p3.jpeg");
+    padding: 20px;
+    font-size: 16px;
+    text-align: justify;
+      }
+.item3 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+	background-image: url("img/bg2.png") ;
+    padding: 30px;
+    font-size: 12px;
+	border-radius:40px;
+    text-align:justify;
+      }
+
+header {
+	background-image: url("img/p3.jpeg");
+	color: #fff;
+	padding: 20px;
+}
+
+header h1 {
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+}
+
+form {
+  box-sizing: border-box;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  border: 4px solid hsl(0, 0%, 90%);
+  display:grid;
+  grid-template-columns: auto ;
+  gap: 2rem;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.menu{
+	float: inherit ;
+	border-spacing: 30px;
+	border-color: white;
+	border-style: double;
+	border-radius: 10px;
+	
+}
+
+nav ul {
+	position: relative;
+	right: 10%;
+	list-style: none;
+	display: inline-flex;
+	font-size:25px;
+	table-layout: auto;
+	
+}
+
+nav ul li {
+	margin-right: 50px;
+	border: 1px #B33032;
+	
+	
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+main {
+	padding: 50px 0;
+	position: relative;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+section h2 {
+	font-size: 1.5rem;
+	
+}
+
+    
